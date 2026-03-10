@@ -1,0 +1,62 @@
+:root {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #2b2f38;
+  background-color: #f8fbff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary: #7ab9d2;
+  --secondary: #b5a1d5;
+  --paper: #f8fbff;
+  --ink: #2b2f38;
+  --muted: #677087;
+  --mist: rgba(122, 185, 210, 0.12);
+  --shadow: rgba(38, 60, 94, 0.12);
+  --serif: 'Playfair Display', 'Times New Roman', serif;
+  --sans: 'Montserrat', 'Inter', 'Segoe UI', sans-serif;
+  --wash-shift: 0.5;
+  --wash-shift-y: 0.5;
+}
+
+[data-theme="dark"] {
+  color: #e8edf2;
+  background-color: #1a1d24;
+  --primary: #89c5db;
+  --secondary: #c4b2df;
+  --paper: #1a1d24;
+  --ink: #e8edf2;
+  --muted: #9da8b9;
+  --mist: rgba(137, 197, 219, 0.08);
+  --shadow: rgba(0, 0, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: var(--sans);
+}

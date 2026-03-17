@@ -4,7 +4,11 @@ function Header() {
   return (
     <header className="site-header">
       <div className="brand">
-        <span className="brand-mark">AR</span>
+        <img
+          className="brand-logo"
+          src="/art-recreate-logo.png"
+          alt="Art Recreate logo"
+        />
         <div>
           <p className="brand-title">Art Recreate</p>
           <p className="brand-subtitle">Ramya Kovida</p>

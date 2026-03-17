@@ -23,18 +23,16 @@
   gap: 16px;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
+.brand-logo {
+  display: block;
   width: 52px;
   height: 52px;
-  border: 2px solid var(--primary);
-  font-size: 1.1rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--primary);
+  object-fit: contain;
+  padding: 4px;
+  border: 1px solid rgba(122, 185, 210, 0.35);
+  border-radius: 14px;
   background: rgba(122, 185, 210, 0.08);
-  line-height: 1;
+  box-shadow: 0 10px 24px rgba(122, 185, 210, 0.12);
 }
 
 .brand-title {
